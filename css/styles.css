@@ -47,3 +47,48 @@ body {
 .header-item:not(:last-child) {
   margin-right: 40px;
 }
+
+/* Hero */
+
+.hero {
+  background-color: grey;
+  padding-top: 220px;
+  padding-bottom: 335px;
+}
+
+.hero-title {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-text {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  max-width: 829px;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 1.33;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-btn {
+  display: block;
+  margin: 0 auto;
+  min-width: 200px;
+  height: 45px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: #ffffff;
+
+  background: #4985ff;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border: none;
+  border-radius: 30px;
+}
