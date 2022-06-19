@@ -1,0 +1,49 @@
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+.container {
+  width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: grey;
+}
+.header-link {
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #fff;
+}
+
+.header-list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-item:not(:last-child) {
+  margin-right: 40px;
+}
