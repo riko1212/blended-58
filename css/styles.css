@@ -231,11 +231,13 @@ body {
 }
 .jobs-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   border-bottom: 1px solid #e0e0e0;
   padding-bottom: 85px;
 }
 .jobs-item {
+  width: 350px;
 }
 .jobs-item-title {
   font-weight: 600;
