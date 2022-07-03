@@ -270,3 +270,25 @@ body {
   align-items: center;
   margin-bottom: 70px;
 }
+
+.slick-next:before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-image: url(../image/picture.png);
+  background-size: cover;
+}
+
+.slick-dots li button:before {
+  font-size: 20px;
+}
+
+.slick-dots li.slick-active button:before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background-size: cover;
+  display: block;
+  background-image: url(../image/picture.png);
+}
